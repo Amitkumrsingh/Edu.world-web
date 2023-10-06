@@ -1,6 +1,5 @@
 import React from 'react';
 import './navbar.css';
-import 'font-awesome/css/font-awesome.min.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBell} from '@fortawesome/fontawesome-free-solid'
 import feApp from '../../../img/fe_app-menu.png'
