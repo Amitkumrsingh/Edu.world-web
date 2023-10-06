@@ -1,7 +1,5 @@
 import React from 'react';
 import './navbar.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBell} from '@fortawesome/fontawesome-free-solid'
 import feApp from '../../../img/fe_app-menu.png'
 
 const Navbar = () => {
@@ -22,17 +20,15 @@ const Navbar = () => {
 
       <input
         type="text"
-        className="navbar-search"
+        className="navbar-search fas"
         placeholder="🔍 Search for colleges, courses, exams and more..."
-          />
-
-
+      />
 
       <button className="navbar-get-counsellor">Get a Counsellor</button>
 
       <div className="navbar-icons">
         <a href="#" className="icon-link">
-            <FontAwesomeIcon icon={faBell} />
+          <i className="fas fa-bell"></i>
         </a>
         <a href="#" className="navbar-login">
           Log In
@@ -43,3 +39,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
