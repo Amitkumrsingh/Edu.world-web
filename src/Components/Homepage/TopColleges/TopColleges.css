@@ -1,0 +1,257 @@
+/* Top 10 colleges starts */
+
+.top-colleges{
+    padding:100px 60px;
+
+}
+
+.top-colleges-sort{
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-colleges-sort h1{
+    width: 547px;
+    color: #000;
+    font-family: Inter;
+    font-size: 55px;
+    font-style: italic;
+    font-weight: 900;
+    line-height: 60px; /* 109.091% */
+    letter-spacing: -1.1px;
+}
+
+.top-colleges-select{
+    gap: 20px;
+
+}
+
+.top-colleges-select select{
+    border-radius: 2px;
+    border: 1px solid #263238;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10);
+    width: 226px;
+    height: 35px;
+    flex-shrink: 0;
+    color: #263238;
+}
+
+.top-colleges-cards{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px;
+
+}
+
+.small-cards{
+    display: flex;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid #F0F0F0;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+    margin: 5px 0px;
+    align-items: center;
+}
+
+.card-number{
+    width: 66px;
+    flex-shrink: 0;
+    padding: 10px;
+
+
+}
+
+.card-number h1{
+    color: #000;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 60px; /* 166.667% */
+    letter-spacing: -0.72px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.iit-img{
+    padding: 20px 10px 20px 20px;
+}
+
+.iit-img img{
+    width: 49px;
+    height: 49px;
+    flex-shrink: 0;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.iit-name{
+     padding: 20px 10px 20px 20px;
+
+}
+.iit-name h2{
+    color: #263238;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 26px; /* 130% */
+}
+
+
+.card-sep{
+    margin: 20px 0px 0px 0px;
+    width: 0px;
+    height: 72px;
+    background: rgba(38, 50, 56, 0.20);
+    color: #26323833;
+}
+
+
+.entrance{
+     padding: 20px 10px 20px 20px;
+}
+
+.entrance h2{
+    color: #263238;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.entrance p{
+    color: #263238;
+    font-family: Inter;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+
+.deadline{
+     padding: 20px 10px 20px 20px;
+}
+.deadline h2{
+    color: #263238;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.deadline p{
+    color: #263238;
+    font-family: Inter;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }
+
+    .prev-cutoff{
+         padding: 20px 10px 20px 20px;
+    }
+
+    .prev-cutoff h2{
+        color: #263238;
+        font-family: Inter;
+        font-size: 14px;
+        font-style: italic;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    .prev-cutoff p{
+        color: #263238;
+        font-family: Inter;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+
+
+    .apply{
+        display: flex;
+        flex-direction: column;
+         padding: 20px 10px 20px 20px;
+    }
+
+    .apply-now{
+        border-radius: 5px;
+        background: rgba(38, 50, 56, 0.50);
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10);
+        color: #26323880;
+        border: none;
+        margin: 5px 0px;
+        padding: 5px 0px;
+    }
+    .apply-now a{
+        color: #FFF;
+        text-align: center;
+        font-family: Inter;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-decoration: none;
+    }
+
+    .download-brochure{
+        border-radius: 5px;
+        border: 1px solid rgba(38, 50, 56, 0.50);
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10);
+        color: #26323880;
+        margin: 5px 0px;
+        padding: 5px;
+    }
+
+    .download-brochure a{
+        color: #263238;
+        text-align: center;
+        font-family: Inter;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-decoration: none;
+
+    }
+
+
+    .view-all-colleges{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .view-college-btn{
+        border-radius: 5px;
+        border: 1px solid #263238;
+        background: #263238;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10);
+        padding: 5px 50px;
+    }
+
+    .view-college-btn a{
+        color: #FFF;
+        text-align: center;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-decoration: none;
+    }
+
+/* Top 10 colleges ends */

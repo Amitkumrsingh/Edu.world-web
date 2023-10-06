@@ -1,0 +1,186 @@
+/* landing starts */
+
+.landing-text{
+   margin: 13% 0% 0% 24%;
+   z-index: 100000;
+
+}
+.landing-text h1{
+
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 95px;
+    font-style: italic;
+    font-weight: 900;
+    line-height: 90px; /* 94.737% */
+    letter-spacing: -1.9px;
+}
+
+.landing-page{
+    display: flex;
+    justify-content: space-between;
+    background-image: url('https://img.freepik.com/premium-photo/bloodhounddog_830154-297.jpg?w=2000');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+}
+
+.landing-page-form{
+    margin: 120px 120px 0px 0px;
+    height: 269px;
+    border-radius: 15px;
+    background: #0090FA;
+    width: 293px;
+    padding: 40px 40px 0px 40px;
+    display:flex ;
+    flex-direction: column;
+}
+
+.landing-page-form select{
+    min-width:226px;
+    padding: 12px;
+    margin: 10px;
+    border-radius: 2px;
+    border: 1px solid #DBDBDB;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10);
+    border: none;
+}
+
+.landing-page-form option{
+    color: rgba(0, 0, 0, 0.45);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.landing-page-form button{
+    margin: 20px 40px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background: #263238;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10);
+}
+
+.landing-page-form a{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.success-stories{
+    width: 268px;
+    margin: -47vh 0px 200px 200px;
+    padding: 30px;
+    border-radius: 15px;
+    background: #B822FF;
+}
+.success-stories h1{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 55px;
+    font-style: italic;
+    font-weight: 900;
+    line-height: 90px; /* 163.636% */
+    letter-spacing: -1.1px;
+}
+
+.success-stories p{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.48px;
+}
+
+/* landing ends */
+
+
+ @media (min-width: 1441px) {
+   body{
+    padding: 0px  3%;
+  }
+   .landing-text{
+   margin: 13% 0% 0% 23%;
+
+}
+}
+
+ @media (min-width: 1681px) {
+   body{
+    padding: 0px 10%;
+  }
+   .landing-text{
+   margin: 14% 0% 0% 24%;
+
+}
+}
+
+ @media (max-width: 1280px) {/* landing starts */
+
+.landing-text{
+   margin: 15% 0% 0% 30%;
+
+}
+.landing-text h1{
+    font-size: 55px;
+    line-height: 60px; /* 94.737% */
+    font-weight: 900;
+    letter-spacing: -1.5px;
+}
+
+.landing-page-form{
+    margin: 8% 12% 0px 0px;
+    height: 200px;
+    width: 260px;
+    padding: 20px;
+}
+
+.landing-page-form select{
+    min-width:150px;
+    padding: 7px;
+    margin: 7px;
+}
+
+
+.landing-page-form button{
+    margin: 13px 30px;
+    padding: 3px 7px;
+}
+
+
+
+.success-stories{
+    width: 170px;
+    margin: -40vh 0px 230px 200px;
+    padding: 20px 20px 20px 50px;
+}
+.success-stories h1{
+    font-size: 45px;
+    line-height: 50px; /* 163.636% */
+    text-align: left;
+
+}
+
+.success-stories p{
+    text-align: left;
+    font-size: 20px;
+
+}
+
+/* landing ends */
+
+}
+

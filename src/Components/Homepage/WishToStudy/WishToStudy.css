@@ -1,0 +1,70 @@
+/* Wish to study start  */
+.wish-to-study{
+    background: #D5FC44;
+    padding: 60px 0px 60px 60px;
+    display: flex;
+}
+
+.wish-to-study-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.wish-to-study-text h1{
+    color: #000;
+    font-family: Inter;
+    font-size: 55px;
+    font-style: italic;
+    font-weight: 900;
+    line-height: 60px; /* 109.091% */
+    letter-spacing: -1.1px;
+}
+
+.wish-to-study-text p{
+    margin-top: 20px;
+    color: #263238;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 26px; /* 130% */
+}
+
+.wish-to-study-text p strong{
+    color: #263238;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+}
+
+.wish-to-study-btns{
+    display: flex;
+
+}
+
+.wish-to-study-btn{
+    display:flex;
+    flex-direction: column;
+
+}
+
+.wish-to-study-btn button{
+    border-radius: 5px;
+    border: 1px solid rgba(38, 50, 56, 0.50);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10);
+    padding: 10px 25px;
+    margin: 10px;
+    color: #263238;
+    background-color: transparent;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+/* Wish to study ends */

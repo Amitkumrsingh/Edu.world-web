@@ -1,0 +1,123 @@
+/* discount start */
+.discounts{
+    margin-top: 100px;;
+    display: flex;
+}
+
+
+.discounts-text{
+    margin: 20px 0px;
+     padding: 20px 30px;
+     border-radius: 15px;
+    background: #D5FC44;
+    margin-left: 0px;
+}
+
+.discounts-text h1{
+    color: #000;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 900;
+    line-height: 50px; /* 125% */
+    letter-spacing: -0.8px;
+}
+
+.discounts-text button{
+    margin-top: 20px;
+    padding: 5px 25px;
+    border: none;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10);
+}
+
+.discounts-text a{
+    padding: 5px 25px;
+    color: #263238;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+    }
+
+    .discounts-scrollable-container {
+    display: flex;
+    overflow: hidden;
+
+}
+.discounts-scrollable-container:hover .discounts-cards {
+    transform: translateX(-414px);
+}
+
+
+    .discounts-cards{
+        display: flex;
+         transform: translateX(0);
+    transition: transform 0.3s ease;
+    }
+
+    .discount-card{
+        margin: 20px;
+        padding:20px;
+        border-radius: 10px;
+        border: 1px solid #F0F0F0;
+        box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+    }
+
+    .Coaching-btn{
+        margin: 0px 0px 10px 0px;
+        border-radius: 5px;
+        background: #0090FA;
+        padding: 5px;
+    }
+    .discount-card .Coaching-btn h2{
+        color: #FFF;
+        text-align: center;
+        font-family: Inter;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: -0.28px;
+    }
+
+    .discount-card  p{
+        padding:5px;
+        margin: 5px 5px 20px 5px;
+        color: #000;
+        text-align: center;
+        font-family: Inter;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: -0.28px;
+    }
+
+
+    .discount-card button{
+        padding: 5px;
+        margin: 5px 0px;
+        width: 159px;
+        border-radius: 5px;
+        border: 1px solid #263238;
+        background: #FFF;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10);
+    }
+
+    .discount-card a{
+        color: #263238;
+        text-align: center;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-decoration: none;
+    }
+
+/* discount ends */

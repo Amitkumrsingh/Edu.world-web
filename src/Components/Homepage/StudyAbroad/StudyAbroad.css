@@ -1,0 +1,146 @@
+/*  Study abroad start */
+
+.study-abroad{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.wish-to-card{
+    margin: 20px 20px 20px 40px;
+    padding: 20px 30px 20px 30px;
+    border-radius: 15px;
+    background: #0090FA;
+    width: 259px;
+    justify-content: center;
+    text-align: left;
+    align-items: center;
+}
+.wish-to-card select{
+    margin: 10px 0px;
+    padding: 10px 20px;
+    border-radius: 2px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10);
+    min-width: 202px;
+    flex-shrink: 0;
+    border: none;
+}
+
+.wish-to-card h1{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 900;
+    line-height: 50px; /* 125% */
+    letter-spacing: -0.8px;
+
+    text-decoration-line: underline;
+
+}
+.study-abroad-scrollable-container {
+    display: flex;
+    overflow: hidden;
+
+}
+.study-abroad-scrollable-container:hover .study-abroad-cards {
+    transform: translateX(-314px);
+}
+
+.study-abroad-cards{
+    display: flex;
+     transform: translateX(0);
+    transition: transform 0.3s ease;
+}
+.study-abroad-card{
+    min-width:200px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #F0F0F0;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+}
+
+.study-abroad-img{
+    border-radius: 5px;
+    background: rgba(213, 252, 68, 0.30);
+    padding:5px;
+    margin:0px 30px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+
+.study-abroad-img h1{
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+
+.study-abroad-img p{
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+
+}
+.study-abroad-img p strong{
+    color: #000;
+    font-family: Inter;
+    font-size: 13px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+
+.study-abroad-card p{
+    margin: 5px 0px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+
+
+.study-abroad-card button{
+    margin: 15px 0px;
+    border-radius: 5px;
+    border: 1px solid rgba(38, 50, 56, 0.20);
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10);
+    padding: 5px;
+}
+.study-abroad-card button a{
+    color: #263238;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+/* Study abroad ends */

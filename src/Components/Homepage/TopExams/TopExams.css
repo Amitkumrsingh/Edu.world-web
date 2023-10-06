@@ -1,0 +1,121 @@
+/* top exams start */
+
+
+.top-exams-btns{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.top-exams{
+    padding: 20px 60px 20px 80px;
+    margin-left: 0px;
+     border-radius: 10px;
+    border: 1px solid #F0F0F0;
+    background: #B822FF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.top-exams-btns h1{
+   color: #FFF;
+    font-family: Inter;
+    font-size: 55px;
+    font-style: italic;
+    font-weight: 900;
+    line-height: 60px; /* 109.091% */
+    letter-spacing: -1.1px;
+}
+
+.view-exams-button{
+        border-radius: 5px;
+        border: 1px solid #263238;
+        background: #263238;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10);
+        padding: 5px 50px;
+    }
+
+    .view-exams-button a{
+        color: #FFF;
+        text-align: center;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-decoration: none;
+    }
+
+    .view-exam{
+        margin: 30px 60px;
+    }
+.top-exams-scrollable-container {
+    display: flex;
+    overflow: hidden;
+
+}
+.top-exams-scrollable-container:hover .top-exams-cards {
+    transform: translateX(-414px);
+}
+
+    .top-exams-cards{
+        display: flex;
+        padding: 30px 60px;
+          transform: translateX(0);
+    transition: transform 0.3s ease;
+
+    }
+.top-exam-card{
+    min-width:290px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+        border: 1px solid #F0F0F0;
+        box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+
+
+}
+.exam-domain{
+    padding: 0px 10px 10px 10px;
+    display: flex;
+    gap:10px;
+    border-bottom: 1px solid #000;
+    align-items: center;
+}
+
+.exam-domain h1{
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.exam{
+    margin-top: 10px;
+}
+.exam h1{
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 200% */
+}
+
+.exam-with-icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.20);
+
+}
+
+.exam-with-icon i{
+    stroke-width: 2px;
+    stroke: rgba(38, 50, 56, 0.50);
+    color: #26323880;
+}
+
+
+/* top exams ends */
