@@ -8,7 +8,7 @@ const Discounts = () => {
     <div className="discounts">
       <div className="discounts-text">
         <h1>UNLOCK DISCOUNTS ON BEST COACHING</h1>
-        <button className="view-discount"><a href="">View All</a></button>
+        <button className="view-discount"><a href="#">View All</a></button>
       </div>
       <div className="discounts-scrollable-container">
         <div className="discounts-cards">
@@ -17,20 +17,30 @@ const Discounts = () => {
             <div className="Coaching-btn">
               <h2>CAT Coaching (MBA)</h2>
             </div>
-            <img src={Discountimg} alt="" />
+            <img src={Discountimg} alt="#" />
             <p>Mumbai, Bangalore, Hyderabad + 5 more</p>
-            <button className="download-details"><a href="">Download Details</a></button>
-            <button className="enroll-now"><a href="">Enroll Now</a></button>
+            <button className="download-details"><a href="#">Download Details</a></button>
+            <button className="enroll-now"><a href="#">Enroll Now</a></button>
           </div>
           {/* End of discount card repetition */}
            <div className="discount-card">
             <div className="Coaching-btn">
               <h2>CAT Coaching (MBA)</h2>
             </div>
-            <img src={Discountimg} alt="" />
+            <img src={Discountimg} alt="#" />
             <p>Mumbai, Bangalore, Hyderabad + 5 more</p>
-            <button className="download-details"><a href="">Download Details</a></button>
-            <button className="enroll-now"><a href="">Enroll Now</a></button>
+            <button className="download-details"><a href="#">Download Details</a></button>
+            <button className="enroll-now"><a href="#">Enroll Now</a></button>
+          </div>
+
+           <div className="discount-card">
+            <div className="Coaching-btn">
+              <h2>CAT Coaching (MBA)</h2>
+            </div>
+            <img src={Discountimg} alt="#" />
+            <p>Mumbai, Bangalore, Hyderabad + 5 more</p>
+            <button className="download-details"><a href="#">Download Details</a></button>
+            <button className="enroll-now"><a href="#">Enroll Now</a></button>
           </div>
 
            <div className="discount-card">
@@ -39,8 +49,8 @@ const Discounts = () => {
             </div>
             <img src={Discountimg} alt="" />
             <p>Mumbai, Bangalore, Hyderabad + 5 more</p>
-            <button className="download-details"><a href="">Download Details</a></button>
-            <button className="enroll-now"><a href="">Enroll Now</a></button>
+            <button className="download-details"><a href="#">Download Details</a></button>
+            <button className="enroll-now"><a href="#">Enroll Now</a></button>
           </div>
 
            <div className="discount-card">
@@ -49,18 +59,8 @@ const Discounts = () => {
             </div>
             <img src={Discountimg} alt="" />
             <p>Mumbai, Bangalore, Hyderabad + 5 more</p>
-            <button className="download-details"><a href="">Download Details</a></button>
-            <button className="enroll-now"><a href="">Enroll Now</a></button>
-          </div>
-
-           <div className="discount-card">
-            <div className="Coaching-btn">
-              <h2>CAT Coaching (MBA)</h2>
-            </div>
-            <img src={Discountimg} alt="" />
-            <p>Mumbai, Bangalore, Hyderabad + 5 more</p>
-            <button className="download-details"><a href="">Download Details</a></button>
-            <button className="enroll-now"><a href="">Enroll Now</a></button>
+            <button className="download-details"><a href="#">Download Details</a></button>
+            <button className="enroll-now"><a href="#">Enroll Now</a></button>
           </div>
           {/* Repeat the above structure for other discount cards */}
         </div>
